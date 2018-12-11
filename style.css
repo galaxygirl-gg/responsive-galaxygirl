@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script|Playfair+Display');
+body,html {
+	font-family: 'Playfair Display', serif;
+	height: 100%;
+}
+div.header,div.projects{
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+	width: 100%;
+}
+div.header{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+
+	background-image: url("img/background.jpg");
+
+	min-height: 90%;
+}
+div.projects{
+	background-image: url("img/background2.jpg");
+}
+.about-section{
+	max-width: 99%;
+}
+input, textarea{
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+.card{
+	background-color:rgba(0,0,0,0.7);
+	border: 1px solid white;
+	color: white;
+
+	margin-bottom: 20px !important;
+}
+.card-img-top{
+	width: 100px;
+	height: 100px;
+}
+
+.zepeto-img{
+	width: 270px;
+	height: 200px;
+	transition: 1s;
+}
+.row.zepeto-image:hover{
+	transform: scale(1.3);
+}
+@media (max-width: 576px) {
+	div.projects{
+		background-image: url("img/zepeto-3.png");
+	}
+	div.header{
+		background-image: url("img/zepeto-4.png");
+	}
+}
+
+
+
